@@ -1,6 +1,6 @@
 English | [简体中文](./README_cn.md)
 
-# Tuya Device IPC SDK Sample for Android
+# Tuya Device P2P SDK Sample for Android
 
 ## Demo usage
 
