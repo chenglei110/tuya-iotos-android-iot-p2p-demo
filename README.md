@@ -21,8 +21,8 @@ The demo interface will show the activation QR code, just use the Tuya Smart app
 ## Access
 
 ```groovy
-implementation 'com.tuya.smart:tuyasmart-iot_qr_p2p:0.0.9-rc3'
-implementation 'com.tuya.smart:tuyasmart-iot_sdk:1.0.8.8'
+implementation 'com.tuya.smart:tuyasmart-iot_qr_p2p:0.0.9-rc4'
+implementation 'com.tuya.smart:tuyasmart-iot_sdk:1.0.8.8-rc1'
 implementation 'com.tencent.mars:mars-xlog:1.2.3'
 ```
 
