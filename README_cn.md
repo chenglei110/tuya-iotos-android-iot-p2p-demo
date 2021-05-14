@@ -20,7 +20,7 @@ demo界面会展示激活二维码，使用涂鸦智能APP扫码即可。
 ## 接入
 
 ```groovy
-implementation 'com.tuya.smart:tuyasmart-iot_qr_p2p:0.0.9-rc4'
+implementation 'com.tuya.smart:tuyasmart-iot_qr_p2p_sdk:0.0.9-rc4'
 implementation 'com.tuya.smart:tuyasmart-iot_sdk:1.0.8.8-rc1'
 implementation 'com.tencent.mars:mars-xlog:1.2.3'
 ```
@@ -28,7 +28,9 @@ implementation 'com.tencent.mars:mars-xlog:1.2.3'
 > 在项目根目录build.gradle中添加仓库地址
 
 ```groovy
-maven { url 'https://dl.bintray.com/tuyasmartai/sdk' }
+maven {
+            url "https://maven-other.tuya.com/repository/maven-releases/"
+        }
 jcenter()
 ```
 
